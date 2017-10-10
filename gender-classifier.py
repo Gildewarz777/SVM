@@ -19,7 +19,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 # In[154]:
 
 
-dataset = pd.read_csv("gender-classifier-DFE-791531.csv", encoding='latin1')
+dataset = pd.read_csv("./dataset/gender-classifier-DFE-791531.csv", encoding='latin1')
 dataset.head()
 
 
